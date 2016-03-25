@@ -1,0 +1,19 @@
+    apply plugin: 'java'
+    apply plugin: 'eclipse'
+
+    repositories {
+       mavenCentral()
+       }
+
+dependencies {
+	compile group: 'commons-collections', name: 'commons-collections', version: '3.2'
+	compile 'com.orientechnologies:orientdb-core:2.1.13'
+	compile 'com.orientechnologies:orientdb-object:2.1.13'
+	compile 'com.orientechnologies:orientdb-client:2.1.13'
+	compile 'com.orientechnologies:orientdb-enterprise:2.1.13'
+	compile 'org.projectlombok:lombok:1.16.8'
+
+	
+	
+
+}
